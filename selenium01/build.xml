@@ -24,7 +24,7 @@
 		<!-- do copy -->
 
 		<!-- compile -->
-		<javac srcdir="${src.dir}" destdir="${dest.dir}" encoding="UTF-8" debug="true" fork="yes">
+		<javac srcdir="${src.dir}" destdir="${dest.dir}" encoding="UTF-8" debug="true" fork="yes" includeAntRuntime="false">
 			<classpath refid="jarfile" />
 		</javac>
 
